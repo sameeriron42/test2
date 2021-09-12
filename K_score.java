@@ -10,14 +10,12 @@ public class K_score
 
         int test = sc.nextInt();
         int Case=1;
-        //System.out.println("the test case is "+test);
+
         while(test-- > 0)
         {   
             int size = sc.nextInt();
-         //   System.out.println("the size is "+size);
             int K_res = sc.nextInt();
             String trash = sc.nextLine();
-          //  System.out.println("the required score is "+K_res);
             String str = sc.nextLine();
 
             int K_act=0;
