@@ -9,7 +9,7 @@ public class K_score
         Scanner sc = new Scanner(System.in);
 
         int test = sc.nextInt();
-        int Case=1;
+        int count=1;
 
         while(test-- > 0)
         {   
@@ -26,11 +26,11 @@ public class K_score
             }
 
             if(K_act == K_res)
-                System.out.println("Case #"+Case+": "+0);
+                System.out.println("Case #"+count+": "+0);
             else
-                System.out.println("Case #"+Case+": "+Math.abs(K_res - K_act));
+                System.out.println("Case #"+count+": "+Math.abs(K_res - K_act));
 
-            ++Case;
+            ++count;
         }
         
     }
